@@ -22,6 +22,9 @@ export default {
       fontFamily: {
         DM: ["DM Sans", "sans-serif"],
       },
+      backgroundImage: {
+        "app-bg": "url('./assets/hero_img.jpg')",
+      },
     },
   },
   plugins: [],
