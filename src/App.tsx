@@ -52,7 +52,7 @@ function App() {
   }, [debouncedSource, sourceLangIndex, resultLangIndex, translate]);
 
   return (
-    <div className="bg-dark h-full">
+    <div className="bg-dark h-screen">
       <div className="text-center bg-dark  text-main-text  h-full bg-app-bg bg-[length:1280px_460px] bg-no-repeat bg-top flex flex-col items-center px-16 pt-24 pb-40 ">
         <img className="mb-12" src={logo} alt="" />
         <div className="flex flex-col xl:flex-row">
